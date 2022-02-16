@@ -3,7 +3,8 @@ import styled from '@emotion/styled';
 export const Container = styled.div`
   margin: 50px auto 0;
   padding: 0 20px;
-  width: 50%;
+  min-width: 430px;
+  width: 30%;
   background-color: rgba(0, 0, 0, 0.3);
 `;
 
