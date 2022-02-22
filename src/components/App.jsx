@@ -102,7 +102,7 @@ class App extends Component {
 App.propTypes = {
   state: PropTypes.arrayOf(
     PropTypes.shape({
-      contacts: PropTypes.func.isRequired,
+      contacts: PropTypes.array.isRequired,
       filter: PropTypes.string.isRequired,
     })
   ),
